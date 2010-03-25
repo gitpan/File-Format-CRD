@@ -1,0 +1,24 @@
+---
+abstract: 'Distribution for reading the Windows CRD format.'
+author:
+  - 'Shlomi Fish <shlomif@iglu.org.il>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: File-Format-CRD
+provides:
+  File::Format::CRD:
+    file: lib/File/Format/CRD.pm
+    version: v0.0.1
+  File::Format::CRD::Reader:
+    file: lib/File/Format/CRD/Reader.pm
+    version: v0.0.1
+resources:
+  license: http://www.opensource.org/licenses/mit-license.php
+version: v0.0.1
