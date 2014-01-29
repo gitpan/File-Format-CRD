@@ -5,8 +5,9 @@ author:
 build_requires:
   Test::More: 0
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+  Module::Build: 0.37
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
 license: mit
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,10 +16,15 @@ name: File-Format-CRD
 provides:
   File::Format::CRD:
     file: lib/File/Format/CRD.pm
-    version: v0.0.1
+    version: v0.0.2
   File::Format::CRD::Reader:
     file: lib/File/Format/CRD/Reader.pm
     version: v0.0.1
+requires:
+  Encode: 0
+  perl: 5.008
+  strict: 0
+  warnings: 0
 resources:
   license: http://www.opensource.org/licenses/mit-license.php
-version: v0.0.1
+version: v0.0.2
