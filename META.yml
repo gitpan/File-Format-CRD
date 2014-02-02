@@ -16,10 +16,10 @@ name: File-Format-CRD
 provides:
   File::Format::CRD:
     file: lib/File/Format/CRD.pm
-    version: v0.0.2
+    version: v0.0.3
   File::Format::CRD::Reader:
     file: lib/File/Format/CRD/Reader.pm
-    version: v0.0.1
+    version: v0.0.3
 requires:
   Encode: 0
   perl: 5.008
@@ -27,4 +27,4 @@ requires:
   warnings: 0
 resources:
   license: http://www.opensource.org/licenses/mit-license.php
-version: v0.0.2
+version: v0.0.3

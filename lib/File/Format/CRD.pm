@@ -11,13 +11,13 @@ File::Format::CRD - Distribution for reading the Windows CRD format.
 
 =head1 VERSION
 
-Version 0.0.2
+Version 0.0.3
 
 =cut
 
 use vars qw($VERSION);
 
-$VERSION = '0.0.2';
+$VERSION = '0.0.3';
 
 
 =head1 SYNOPSIS
